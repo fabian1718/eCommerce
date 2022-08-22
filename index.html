@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <script src="https://kit.fontawesome.com/809bf1a202.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>eCommerce</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <div></div>
+    <div class="container-header">
+      <div class="nav-link">
+        <div class="nav-link-store">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="nav__logo-icon">
+              <title>Academlo Logo</title>
+              <g>
+                <g>
+                  <!-- <path d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z"></path> -->
+                  <path
+                    d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                  </path>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a href="#"><h3>STORE</h3></a>
+        </div>
+        <div class="nav-link-home" id="home">
+          <a href="#">Home</a>
+          <a href="#section-store">Products</a>
+        </div>
+      </div>
+      <div class="nav-car">
+        <i class="fa-regular fa-moon"></i>
+        <div class = "contadorProduct">
+          <i class="fa-solid fa-bag-shopping viewCart"></i>
+          <p class = "contadorProduct1">0</p>
+        </div>
+      </div>
+    </div>
+    <div></div>
+    <div class="modal-cart">
+      <div class="show-cart">
+        <i class="fa-solid fa-xmark closetModal"></i>
+          <h2>My Cart</h2>
+          <img src="./img/empty-cart.png" alt="">
+          <h2>Your cart is empty</h2>
+          <p>You can add items to your cart by clicking on the "" button on the product page.</p>
+          <div class="show-cart-btn">
+            <div class="btn-group">
+              <p class="cant">0</p>
+              <p>items</p>
+            </div>
+            <h2 class="total">$0.00</h2>
+          </div>
+          <div class="show-cart-btn-check">
+            <button class="btn-checkout">Checkout</button>
+          </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="grilla">
+    <div></div>
+    <div class="main">
+      <section class="section-new-collection">
+        <div>
+          <h1>New Sweatshirt <br>
+            COLLECTIONS 2022</h1>
+          <p>Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</p>
+          <div class="section-new-collection-btn">
+            <span>$ 14.00</span>
+            <div class="btn-group">
+              <a class="btn-discover" href="#">Discover</a>
+              <button class="btn-add">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="new-collection-imagen">
+          <img class="new-collection-img" src="./img/home.png" alt="">
+        </div>
+        
+      </section>
+        <section id="section-store">
+          <div class="section-store">
+            <a href="#section-store" class="anclas border-right viewAll"><h3>Show All</h3> <p class="p1">how all products</p></a>
+            <a href="#section-store" class="anclas border-right viewHodies"><h3>Hoodies</h3> <p class="p1">3 products</p></a>
+            <a href="#section-store" class="anclas border-right viewShirt"><h3>Shirts</h3> <p class="p1">4 products</p></a>
+            <a href="#section-store" class="anclas viewSweatshirts"><h3>Sweatshirts</h3> <p class="p1">4 products</p></a>
+          </div>
+          <div class="container-card">
+            <article class="card card1">
+              <div class="card-gray">
+                <img class="img-card" src="./img/featured1.png" alt="">
+                <div class="pluss pluss1">
+                  <label for="">+</label>
+                </div>
+              </div>
+              <div class="card-white">
+                <div>
+                  $14.00 <span>Stock: 10</span> <br>
+                  Hoodies
+                </div>
+              </div>
+            </article>
+            <article class="card card2">
+              <div class="card-gray">
+                <img class="img-card" src="./img/featured2.png" alt="">
+                <div class="pluss pluss2">
+                  <label for="">+</label>
+                </div>            
+              </div>
+              <div class="card-white">
+                <div>
+                  $24.00 <span>Stock: 15</span> <br>
+                  Shirts
+                </div>
+              </div>
+            </article>
+            <article class="card card3">
+              <div class="card-gray">
+                <img class="img-card" src="./img/featured3.png" alt="">
+                <div class="pluss pluss3">
+                  <label for="">+</label>
+                </div>
+              </div>
+              <div class="card-white">
+                <div>
+                  $24.00 <span>Stock: 20</span> <br>
+                  Sweatshirts
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+    </div>
+
+    <div></div>
+    <div class="footer-relleno"></div>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-items"><h3>Our information</h3> <span>Toluca - México</span></div>
+        <div class="footer-items">
+          <h3>About Us</h3>
+          <div class="footer-items-a">
+            <a href="#">Support Center</a>
+            <a href="#">Customer Support</a>
+            <a href="#">About Us</a>
+            <a href="#">Copy Right</a>
+          </div>
+        </div>
+        <div class="footer-items">
+          <h3>Product</h3>
+          <div class="footer-items-a">
+            <a href="#">Hoodies</a>
+            <a href="#">Shirts</a>
+            <a href="#">Sweatshirts</a>
+          </div>
+        </div>
+        <div class="footer-items">
+          <h3>Social</h3>
+          <div class="footer-items-i">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer-reserved">
+        <p>© ACADEMLO. All rigths reserved</p>
+      </div>
+    </div>
+    <div class="footer-relleno"></div>
+  </div>
+</body>
+<script src="./scrip.js"></script>
+</html>
